@@ -1,0 +1,38 @@
+
+
+/*this buts the game in the middle of the screen*/
+body{
+    margin: 10% 20%;
+    text-align: center;
+}
+
+/*this class creates and styles the borad*/
+
+.gameboard{
+    border: gray solid 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 100px;
+}
+
+/*this puts boarders around the diverent sections of the game*/
+
+div{
+    text-align: center;
+    border: gray solid 1px;
+}
+
+/* this makes the scores the corect font size on the borad*/
+
+.fontbig
+{
+    padding: 0%;
+    font-size: 100px;
+}
+
+/*this puts the buttons acroos their areas*/
+
+button{
+    width: 90%;
+}
+
